@@ -1,0 +1,2 @@
+"sample_id","division","test","sample_type","stage","run_id","issue","owner","receiving_date","patient_case_id","referring_client","client_contact","assigned_counselor","clinical_history","clinical_source"
+"DEMO-NEW","Exome","WES","Blood","Received","","","Exome team","2026-10-09","DEMO-CASE-NEW","Demo referring centre","","Demo counselor","",""

@@ -1,0 +1,5 @@
+﻿"run_id","run_date","division","sequencer","stage","unique_samples","assigned_test_records","qc_status","read_count","read_count_unit","read_configuration","sequenced_yield_Gb","data_size_GB","q30_percent","pass_filter_percent","qc_notes"
+"DEMO-R01","2026-10-05","Exome","Sequencer A","Sequencing","1","1","Pending","","Reads","2 × 150 bp","","","","","Illustrative metrics; manual demo review."
+"DEMO-R02","2026-10-06","Oncology","Sequencer B","Analysis","2","2","Pass","80000000","Reads","2 × 150 bp","24","16","89","93","Illustrative metrics; manual demo review."
+"DEMO-R03","2026-10-07","Tera","Sequencer C","Sequencing","1","1","Fail","120000000","Reads","2 × 150 bp","36","24","90","94","Illustrative metrics; manual demo review."
+"DEMO-R04","2026-10-08","Exome","Sequencer A","Complete","1","1","Pass","160000000","Reads","2 × 150 bp","48","32","91","95","Illustrative metrics; manual demo review."
