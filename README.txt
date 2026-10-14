@@ -25,6 +25,8 @@ Verification: syntax; 15 page renders; filter and total logic; file validation;
 sample-test/run attachment isolation; save/archive/restore; staff validation;
 successful-change logging. Browser preview timed out; visual browser QA unavailable.
 
+Brand suite: a GenomeMatrix emblem; distinct Exome/Oncology/Tera illustrations; 10 individual test icons and 8 specimen-type icons. Test icons are illustrative identifiers and do not encode clinical interpretation.
+
 NGS CALCULATORS — user-supplied methods implemented
 Open NGS Calculators in the navigation. Fourteen tools cover DNA mass/input volume,
 dsDNA mass-molarity conversion, mass-to-pmol, nM/pM/total pmol, final-volume and
@@ -59,3 +61,10 @@ case ID and referring centre, with independent test timelines, QC, report summar
 kit/lot/protocol, result files, storage and transfers. Click a stage to record staff
 and timestamps. Refresh panel reads current browser records; shared real-time
 tracking still requires the LAN backend. No completion dates are inferred.
+
+MOLECULAR CALCULATORS: 26 tools total. Added extraction yield/recovery, cleanup
+recovery/loss, reaction mix scaling, bead volume ratio, insert/vector mass, qPCR
+standard curve quantity/efficiency, validated-efficiency DeltaDeltaCt, and variant
+allele read fraction. Arithmetic only; no diagnostic thresholds or reagent recipes.
+References: https://www.thermofisher.com/in/en/home/life-science/pcr/real-time-pcr/real-time-pcr-learning-center/real-time-pcr-basics/efficiency-real-time-pcr-qpcr.html
+https://www.neb.com/en/tools-and-resources/video-library/quick-tips-how-do-i-calculate-how-much-dna-to-add-to-a-ligation-reaction?autoplay=1
