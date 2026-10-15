@@ -73,3 +73,20 @@ SPECIMEN OPERATIONS: renamed storage/transfer sections, registered sample select
 by division, batch fridge/rack/box/well mapping, occupied position validation,
 manual sample/test QC and results displayed in transfers with dispatch snapshots.
 Data remains browser-local. Storage batches are separate from sequencing runs.
+
+REPORT PREPARATION: CSV/XLSX values import with sheet selection, column mapping,
+atomic sample/test matching, template routing by division/test/result/variant class,
+version snapshots and unsigned individual multi-variant sample/test drafts. Upload
+DOCX or TXT templates using {{sample_id}}, {{test}}, {{result_status}}, {{variants}}
+and the fields listed in the template form. DOCX placeholders may span text runs
+within one paragraph; keep placeholders in ordinary body/header/footer text.
+Text preview does not reproduce Word layout. Word output retains the template
+structure, merges scalar fields and all variants as text, and adds a draft banner.
+Use separate report templates for negative/inconclusive/variant categories. No
+classification, signature or release is automated. Review records are browser-local
+and require history and manually accepted QC. Download HTML then browser Print
+for PDF, DOCX when using Word templates, or a ZIP of all generated drafts.
+Limits: 20 MB files, 5000 data rows, 200 columns. Formula cells and .xls are rejected;
+use values-only XLSX or CSV. Dates/identifiers should be text. Actual approved
+templates and workbook layouts still require end-to-end validation. JSZip is
+bundled locally under vendor with its license. Preserve original source files.
