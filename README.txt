@@ -68,3 +68,8 @@ standard curve quantity/efficiency, validated-efficiency DeltaDeltaCt, and varia
 allele read fraction. Arithmetic only; no diagnostic thresholds or reagent recipes.
 References: https://www.thermofisher.com/in/en/home/life-science/pcr/real-time-pcr/real-time-pcr-learning-center/real-time-pcr-basics/efficiency-real-time-pcr-qpcr.html
 https://www.neb.com/en/tools-and-resources/video-library/quick-tips-how-do-i-calculate-how-much-dna-to-add-to-a-ligation-reaction?autoplay=1
+
+SPECIMEN OPERATIONS: renamed storage/transfer sections, registered sample selection
+by division, batch fridge/rack/box/well mapping, occupied position validation,
+manual sample/test QC and results displayed in transfers with dispatch snapshots.
+Data remains browser-local. Storage batches are separate from sequencing runs.
