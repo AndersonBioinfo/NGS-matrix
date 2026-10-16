@@ -3,7 +3,7 @@ const processingKinds=['DNA extraction','RNA extraction','Cell-free DNA extracti
 const processingStates=['Planned','In progress','Completed','On hold','Cancelled'];
 data.processingBatches??=[];
 let processingDivision='',processingKind='',processingTest='',processingSpecimenType='';
-function processingKindIcon(kind,cls=''){const files={'DNA extraction':'processing-dna','RNA extraction':'processing-rna','Cell-free DNA extraction':'processing-cfdna'};return files[kind]?'<img class="ngs-icon '+cls+'" src="icons/'+files[kind]+'.svg?v=20261016-terav2" alt="" width="40" height="40">':ngsStageIcon(processingStage(kind),cls);}
+function processingKindIcon(kind,cls=''){const files={'DNA extraction':'processing-dna','RNA extraction':'processing-rna','Cell-free DNA extraction':'processing-cfdna'};return files[kind]?'<img class="ngs-icon '+cls+'" src="icons/'+files[kind]+'-illustrated.png?v=20261016-artwork" alt="" width="40" height="40">':ngsStageIcon(processingStage(kind),cls);}
 
 navs.splice(navs.findIndex(n=>n[0]==='runs'),0,['batches','','Processing batches']);
 const navIconBeforeBatches=ngsNavIcon;ngsNavIcon=function(p){return p==='batches'?ngsAsset('library-preparation','nav-icon'):navIconBeforeBatches(p)};
