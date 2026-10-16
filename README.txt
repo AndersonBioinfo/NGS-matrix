@@ -114,3 +114,11 @@ sample/test, are highlighted in patient panels and attempt automatic unsigned dr
 preparation using existing templates. Missing prerequisites shown for action.
 Reports follow explicit processing parent chains; prior draft snapshots retained
 and changed-source drafts cannot be marked reviewed without a new revision.
+
+TERA EVALUATION ADAPTER: dedicated cached-value XLSX reading for the supplied
+patient/centre/two-biopsy/corrected-time layout. No formula is executed. Patient
+rows require explicit registered-sample linkage and confirmation of result and
+approved blastocyst/cleavage timings. No recommendations are inferred. The supplied
+PDF was recreated locally as an unsigned technical demo; signatures were omitted.
+The original patient files and demo PDF are not included in this public app package.
+Extraction illustrations are enlarged and redrawn for distinct DNA/RNA/cfDNA.
