@@ -101,3 +101,16 @@ and never downgrades sample stages or overwrites sample QC/results. Completed
 batches remain available for provenance; repeat processing uses a new batch ID.
 EmbryoMatrix-style sidebar, illustrated NGS icons, metric cards and horizontal
 processing timelines are included. Browser-local prototype; no shared backend.
+
+BENCH / SHEET LINKING: per-member extraction concentrations/volumes, library units
+and size, barcodes/i7/i5, pool/lane/contribution, and pool/sequencer loading records.
+Measurement forms remain editable after completion; prior measurements retained.
+Cell-free DNA extraction and distinct DNA/RNA/cfDNA icons; specimen-type filters.
+Excel/CSV batch sheets support column mapping, validated previews and confirmation
+for new planned batches or measurement updates on existing batch members. Download
+the canonical CSV columns or export a worklist to fill offline. Completion remains
+manual. Source rows and prior records retained locally. Result sheets map by exact
+sample/test, are highlighted in patient panels and attempt automatic unsigned draft
+preparation using existing templates. Missing prerequisites shown for action.
+Reports follow explicit processing parent chains; prior draft snapshots retained
+and changed-source drafts cannot be marked reviewed without a new revision.
