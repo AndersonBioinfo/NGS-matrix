@@ -90,3 +90,14 @@ Limits: 20 MB files, 5000 data rows, 200 columns. Formula cells and .xls are rej
 use values-only XLSX or CSV. Dates/identifiers should be text. Actual approved
 templates and workbook layouts still require end-to-end validation. JSZip is
 bundled locally under vendor with its license. Preserve original source files.
+
+PROCESSING BATCHES: dedicated DNA extraction, RNA extraction, library preparation
+and sequencing batches for every division and configured test. Registered sample/test
+selection, tube/well, source parent, kit/lot/protocol, owner, planned/start/end times,
+individual processors and manually recorded batch/member QC. Sequencing batches
+link to existing runs; explicit confirmation is required for run reassignment.
+Optional sample-step synchronization preserves prior records in processingHistory
+and never downgrades sample stages or overwrites sample QC/results. Completed
+batches remain available for provenance; repeat processing uses a new batch ID.
+EmbryoMatrix-style sidebar, illustrated NGS icons, metric cards and horizontal
+processing timelines are included. Browser-local prototype; no shared backend.
